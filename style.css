@@ -1,0 +1,52 @@
+@font-face{
+    font-family: 'my-font';
+    src: url('DS-DIGI.TTF');
+}
+body{
+    background-color: #1A1A2E;
+    display: flex;
+    justify-content: center;
+}
+.div-big{
+    display: flex;
+    justify-content: space-around;
+    width: 500px;
+    height: 300px;
+    border: 5px solid #B8860B;
+    border-bottom: 8px solid saddlebrown;
+    padding-top: 30px;
+}
+.score{
+    background-color: black;
+    width: 120px;
+    height: 100px;
+    color: red;
+    font-size: large;
+    margin-bottom: 15px;
+}
+.div-min{
+    text-align: center;
+}
+/*lets make h2 s color white*/
+.typo{
+    margin-bottom: 1px;
+    color: white;
+}
+.score h2{
+    font-size: 70px;
+    padding-top: 8px;
+    margin-top: 5px;
+    line-height: 1.2;
+}
+.score h2,button{
+    font-family: 'my-font';
+}
+button{
+    background-color: #1A1A2E;
+    color: whitesmoke;
+    text-shadow: 0px 0px 1px black;
+    width: 40px;
+    height: 30px;
+    font-size: large;
+}
+
